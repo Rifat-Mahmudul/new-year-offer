@@ -6,6 +6,7 @@
     font-family: "Merriweather", serif;
 }
 
+/* header section start */
 header{
     margin: 0 auto;
     margin-top: 20px;
@@ -37,3 +38,34 @@ header{
 .header-text h3{
     font-size: 32px;
 }
+/* header section end */
+
+
+/* new-year section start */
+.new-year{
+    margin-top: 70px;
+}
+
+.new-year-container-text{
+    text-align: center;
+}
+
+.new-year-container-text h1{
+    color: red;
+    font-size: 40px;
+}
+
+.new-year-container-text h6{
+    color: gray;
+    margin: 15px 0;
+}
+
+.new-year-container-img{
+    text-align: center;
+}
+
+.new-year-container-img img{
+    height: 300px;
+    margin-top: 25px;
+}
+/* new-year section end */
