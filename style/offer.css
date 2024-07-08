@@ -69,3 +69,54 @@ header{
     margin-top: 25px;
 }
 /* new-year section end */
+
+/* midnight-party section start */
+.midnight-party{
+    margin-top: 70px;
+}
+
+.midnight-party-container{
+    margin: 0 auto;
+    height: 500px;
+    width: 1100px;
+    border-radius: 20px;
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.626);
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.midnight-party-container-text{
+    color: white;
+    width: 600px;
+}
+
+.midnight-party-container-text h1{
+    font-size: 64px;
+}
+
+.midnight-party-container-text p{
+    color: rgba(255, 255, 255, 0.712);
+    margin: 15px 0;
+}
+
+.midnight-party-container-text button{
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.midnight-party-container-text button:hover{
+    background-color: rgba(255, 255, 255, 0.553);
+}
+
+.midnight-party-container-img img{
+    height: 350px;
+}
+/* midnight-party section end */
