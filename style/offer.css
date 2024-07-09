@@ -304,3 +304,42 @@ header{
     cursor: pointer;
 }
 /* subscrib-section end */
+
+/* footer section start */
+footer{
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.footer-container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.footer-icon-container{
+    text-align: center;
+    font-size: 40px;
+}
+
+.footer-icon-container a{
+    color: white;
+    margin-right: 10px;
+}
+
+.last-para{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 50px;
+}
+/* footer section end */
