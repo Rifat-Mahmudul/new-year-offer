@@ -12,7 +12,7 @@ header{
     margin: 0 auto;
     margin-top: 20px;
     height: 500px;
-    width: 1100px;
+    max-width: 1100px;
     border-radius: 20px;
     background-image: url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ header{
 .midnight-party-container{
     margin: 0 auto;
     height: 500px;
-    width: 1100px;
+    max-width: 1100px;
     border-radius: 20px;
     background-image: url(../images/Vectorrr.png);
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@ header{
 }
 
 .location-section-container{
-    width: 1100px;
+    max-width: 1100px;
     height: 250px;
     margin: 0 auto;
     border-radius: 16px;
@@ -174,7 +174,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1100px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -218,13 +218,13 @@ header{
 }
 /* offer-section end */
 
-/* holidas-seciton start */
+/* holidays-seciton start */
 .holidays-seciton{
     margin-top: 70px;
 }
 
 .holidas-seciton-container{
-    width: 1100px;
+    max-width: 1100px;
     margin: 0 auto;
     text-align: center;
 }
@@ -241,4 +241,66 @@ header{
 .holidas-seciton-container p{
     color: gray;
 }
-/* holidas-seciton end */
+/* holidays-seciton end */
+
+/* subscrib-section start */
+.subscrib-section{
+    margin-top: 70px;
+}
+
+.subscrib-section-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.subscrib-section-container i{
+    font-size: 70px;
+    color: rgb(245, 152, 21);
+}
+
+.subscrib-section-container h1{
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 15px 0;
+}
+
+.subscrib-section-container p{
+    color: gray;
+}
+
+.email-container{
+    margin-top: 20px;
+    position: relative;
+}
+
+.email-container input{
+    width: 450px;
+    height: 45px;
+    border: 0;
+    border-radius: 22px;
+    padding-left: 15px;
+    padding-right: 128px;
+    font-size: 16px;
+}
+
+.email-btn{
+    position: absolute;
+    right: 275px;
+    bottom: 1px;
+}
+
+.email-btn button{
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    padding: 0 30px;
+    height: 44px;
+    border: 0;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+/* subscrib-section end */
