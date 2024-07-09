@@ -217,3 +217,28 @@ header{
     margin-top: 10px;
 }
 /* offer-section end */
+
+/* holidas-seciton start */
+.holidays-seciton{
+    margin-top: 70px;
+}
+
+.holidas-seciton-container{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.holidas-seciton-container h1{
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.holidas-seciton-container h1 span{
+    color: red;
+}
+
+.holidas-seciton-container p{
+    color: gray;
+}
+/* holidas-seciton end */
