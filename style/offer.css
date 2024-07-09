@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Merriweather", serif;
 }
 
@@ -155,5 +156,64 @@ header{
     border: 0;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.location-section-container-text button:hover{
+    background-color: rgb(166, 5, 5);
 }
 /* location-section end */
+
+
+/* offer-section start */
+.offer-section{
+    margin-top: 70px;
+}
+
+.offer-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.offer-section-container h4{
+    color: red;
+}
+
+.offer-section-container h1{
+    margin: 15px 0;
+}
+
+.offer-section-container p{
+    color: gray;
+}
+
+.best-offer-img{
+    height: 300px;
+    width: 300px;
+    border: 10px solid red;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-offer-img img{
+    height: 250px;
+    width: 250px;
+}
+
+
+.best-offer-text-2 h1{
+    color: red;
+}
+
+.best-offer-text-2 img{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+/* offer-section end */
